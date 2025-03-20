@@ -1,5 +1,4 @@
 # Network Arguments
-# 使用两模型不同之处：1.导入模型，3.下面args['dyn_size']=64 or 224
 args = {}
 args['encoder_size'] = 64
 args['decoder_size'] = 128
@@ -13,5 +12,5 @@ args['input_embedding_size'] = 32
 args['trained_model'] = 'trained_models/'
 args['batch_size'] = 128
 
-args['dyn_size'] = 64  # 时序信息长度
+args['dyn_size'] = 224  # 时序信息长度
 args['model_type'] = 'mine'
